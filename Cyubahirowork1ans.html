@@ -1,0 +1,545 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<style>
+	.container {
+		position: absolute;
+		text-align: left;
+		color: red;
+    
+	}
+
+	.ars-senal {
+		width: 1500px;
+		height: 500px;
+		top:0px;
+		border-radius:5px;
+		border-shadow:1px 2px;
+	
+	}
+
+	.text {
+		position: absolute;
+		top: 32%;
+		left: 5%;
+	}
+
+	.text1 {
+		position: absolute;
+		top: 38%;
+		left: 5%;
+		font-size: 30px;
+		font-weight: bold;
+	}
+
+	.text2 {
+		position: absolute;
+		top: 2%;
+		left: 5%;
+		width: auto;
+		height: 30px;
+	}
+
+	.text3 {
+		position: absolute;
+		top: 2.5%;
+		left: 10%;
+		font-size: 15px;
+		font-weight: bold;
+		flex-direction:row;
+		display:flex;
+		justify-content:flex-end;
+	}
+
+	.text4 {
+		position: absolute;
+		top: 6.4%;
+		left: 10%;
+		font-size: 7px;
+		font-weight: lighter;
+		flex-direction:row;
+		justify-content:flex-end;
+		font-family:Arial,sans-serif;
+	}
+
+	/* Add a black background color to the top navigation */
+	.topnav {
+		overflow: hidden;
+		position: absolute;
+		top: 2.5%;
+		left: 70%;
+		font-size: 7px;
+		font-weight: bold;
+		font-family:monospace;
+	}
+
+	/* Style the links inside the navigation bar */
+	.topnav a {
+		float: left;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 15px;
+	}
+
+	/* Change the color of links on hover */
+	.topnav a:hover {
+		background-color: red;
+		color: black;
+	}
+
+	/* Add a color to the active/current link */
+	.topnav a.active {
+		background-color: ;
+		color: white;
+	}
+
+	.button1 {
+		position: absolute;
+		top: 40%; /* Adjust the position of the button */
+		left: 5%;
+		font-size: 15px;
+		font-weight: bold;
+		color: red;
+		text-decoration: none;
+		font-family:monospace;
+	}
+	.rib1{
+	position: absolute;
+	background:red;
+	left: 2.5%;
+	top: 470px; 
+	width:15%;
+	height:40%;
+	 border-radius: 8px;
+        box-shadow: 1px 2px 10px;
+	}
+	.box1 {
+    position: absolute;
+    background: white;
+    left: 22.5%;
+    top: 545px;
+    width: 20%;
+    height: 32.5%;
+    font-family: Arial; /* Corrected font family name */
+    font-size: 25px;
+    border: 1px silver; /* Corrected border shorthand */
+    border-radius: 4px; /* Corrected border-radius property */
+    box-shadow: 1px 1px 2px;
+}
+
+
+	.box2 {
+		position: absolute;
+		background: white;
+		left: 49%;
+		top:545px;
+		width: 20%;
+		height: 32.5%;
+		font-family: ariel;
+		font-size: 25px;
+		 border: 1px  silver; /* Corrected border shorthand */
+    border-radius: 4px; /* Corrected border-radius property */
+    box-shadow: 1px 1px 2px;
+	}
+	.box3 {
+		position: absolute;
+		background: white;
+		left: 75%;
+		top:545px;
+		width: 20%;
+		height: 32.5%;
+		font-family: ariel;
+		font-size: 25px;
+		 border: 1px silver; /* Corrected border shorthand */
+    border-radius: 4px; /* Corrected border-radius property */
+    box-shadow: 1px 1px 2px;
+	}
+	.ars1{
+		position: absolute;
+		left:2%;
+		top:50px;
+		width: auto;
+		height: 30%;
+		border-radius: 5px;
+	}
+	.ars2{
+		position: absolute;
+		left:2%; /* Adjust the left position */
+		top:50px;
+		width: auto;
+		height: 30%;
+		border-radius: 5px;
+	}
+	.ars3{
+		background: LightSkyBlue;
+		position: absolute;
+		left:2%; /* Adjust the left position */
+		top:50px;
+		width: auto;
+		height: 30%;
+		border-radius: 5px;
+	}
+	.d1 {background: white;
+		position:absolute;
+		left:22.5%;
+		top:900px;
+		width: 200px;
+		height: 36.4%;
+		font-family: ariel;
+		font-size: 25px;
+	}
+	.d2 {background: white;
+		position:absolute;
+		left:49%;
+		top:900px;
+		width: 200px;
+		height: 36.4%;
+		font-family: ariel;
+		font-size: 25px;
+	}
+	.d3 {background: white;
+		position:absolute;
+		left:75%;
+		top:900px;
+		width: 200px;
+		height: 36.4%;
+		font-family: ariel;
+		font-size: 25px;
+	}
+	.d4 {background: pink;
+		position:absolute;
+		left:22.5%;
+		top:1300px;
+		width: 500px;
+		height: 50%;
+		font-family: monospace;
+		font-size: 25px;
+	}
+	.d5 {background: white;
+		position:absolute;
+		left:62%;
+		top:1300px;
+		width: 500px;
+		height: 50%;
+		font-family: monospace;
+		font-size: 25px;
+	}
+	.d6 {background: black;
+		position:absolute;
+		left:0%;
+		top:1700px;
+		width: 1510px;
+		height: 50%;
+		font-family: monospace;
+		font-size: 25px;
+	}
+	.lisa1{
+		position: absolute;
+		left22.5%;
+		top:0px;
+		width: auto;
+		height: 126px;
+        border-radius: 5px;
+	}
+	.liv2{
+	position: absolute;
+		left22.5%;
+		top:0px;
+		width: auto;
+		height: 126px;
+		border-radius: 5px;
+	}
+	.bel1{
+	position: absolute;
+		left22.5%;
+		top:0px;
+		width: auto;
+		height: 126px;
+        border-radius: 5px;
+	}
+	.rad1{
+
+		left:20%;
+		top:0px;
+		width: auto;
+		height: 100%;
+		border: 0px;
+        border-radius: 8px;
+        box-shadow: 10px 10px 10px;
+	}
+	.para1{
+	position:absolute;
+		left:0%;
+		top:260px;
+		font-size:17px;
+	}
+	.text12{
+	  position:absolute;
+	  text-align:center;
+	  color:white;
+	  top: 50%;
+	  left:50%;
+	  transform:translate(-50%,-50%);
+	  font-family:ariel;
+	}
+	.text13{
+	  position:absolute;
+	  color:black;
+	  font-family:ariel;
+	}
+	.text21 {
+		position: absolute;
+		top: 15%;
+		left: 5%;
+		width: 30px;
+		height: 30px;
+	}
+
+	.text31 {
+		position: absolute;
+		color:white;
+		top: 15%;
+		left: 7.5%;
+		font-size: 15px;
+		font-weight: bold;
+		flex-direction:row;
+		display:flex;
+		justify-content:flex-end;
+	}
+
+	.text41 {
+	position: absolute;
+		color:white;
+		top: 20%;
+		left: 7.4%;
+		font-size: 7px;
+		font-weight: lighter;
+		flex-direction:row;
+		justify-content:flex-end;
+		font-family:Arial,sans-serif;
+	}
+	.text22{
+	position: absolute;
+		top: 28%;
+		left: 5%;
+		color:white;
+		font-size:10px;
+	}
+	.text23{
+	position: absolute;
+		top: 35%;
+		left: 5%;
+		color:white;
+		font-size:10px;
+	}
+	.text24{
+	position: absolute;
+		top: 42%;
+		left: 5%;
+		color:white;
+		font-size:10px;
+	}
+	.textc1{
+	position: absolute;
+		top: 15%;
+		left: 20%;
+		color:white;
+		font-family:ariel;
+	}
+	.textc2{
+	position: absolute;
+		top: 26%;
+		left: 20%;
+		color:white;
+		font-family:ariel;
+		font-size:12px;
+		font-weight:lighter;
+	}
+	.textc3{
+	position: absolute;
+		top: 35%;
+		left: 20%;
+		color:white;
+		font-family:ariel;
+		font-size:12px;
+		font-weight:lighter;
+	}
+	.textc4{
+	position: absolute;
+		top: 43%;
+		left: 20%;
+		color:white;
+		font-family:ariel;
+		font-size:12px;
+		font-weight:lighter;
+	}
+	.textb1{
+	position: absolute;
+		top: 15%;
+		left: 35%;
+		color:white;
+		font-family:ariel;
+		font-size:25px;
+		font-weight:lighter;
+	}
+	.textb2{
+	position: absolute;
+		top: 26%;
+		left: 35%;
+		color:white;
+		font-family:ariel;
+		font-size:12px;
+		font-weight:lighter;
+		text-decoration: none;
+	}
+	.textb2 a:{
+	position: absolute;
+		color:white;
+	
+		text-decoration: none;
+	}
+	.textb2 a:hover {
+    color: red; /* Change color to red on hover */
+	text-decoration: none;
+}
+	.textb3{
+	position: absolute;
+		top: 35%;
+		left: 35%;
+		color:white;
+		font-family:ariel;
+		font-size:12px;
+		font-weight:lighter;
+	}
+	.textb4{
+	position: absolute;
+		top: 43%;
+		left: 35%;
+		color:white;
+		font-family:ariel;
+		font-size:12px;
+		font-weight:lighter;
+	}
+	.rib11{
+	font-size:40px;
+	}
+	</style>
+	</head>
+	<body>
+	<div class="container">
+		<div class="text3"> ARSENAL</div>
+		<div class="text4"> ARE HOME EMIRATES</div>
+		<img class="text2" src="C:\Users\user\Pictures\arlogo.png">
+		<img class="ars-senal" src="C:\Users\user\Pictures\arsenal pro\wal.jpg" style="left:0px;">
+		<div class="text">"Trust the process"<b>Arteta</b></div>
+		<br>
+		<div class="text1">We are Arsenal. "VISIT RWANDA"<br>#COYG</div>
+	</div>
+	<div class="topnav">
+		<a class="active" href="#home">Home<select><option></option></select></a>
+		<a href="#news">News<select><option></option></select></a>
+		<a href="#contact">Contact<select><option></option></select></a>
+		<a href="#about">About<select><option></option></select></a>
+	</div>
+	<a href="#Getstartednow"><button class="button1" type="submit">GET STARTED NOW</button></a>
+	<div class="rib1">
+    <span style="font-size: 30px;">👟</span><br>
+    <b style="font-size: 15px;">Sports wear</b><br><br>
+    <span style="font-size: 30px;">⚽</span><br>
+    <b style="font-size: 15px;">Sports equipment</b><br><br>
+    <span style="font-size: 30px;">📰</span><br>
+    <b style="font-size: 15px;">Team news</b>	
+	</div>
+	<div class="con2">
+	<div class="box1">  
+		<b style="font-size:17px;">SHOP</b><br>
+		<img class="ars1" src="C:\Users\user\Pictures\arsenal pro\ar1.jpeg"><br><br><br>
+		<b style="font-size:15px;">New jersey</b>
+		<p style="font-size:12px;">Season jersey where prices are adequate for a very lover of the club, we are Gunners.<br><br><br><br>
+		<button type="submit">READ MORE</button> </p>
+			
+		<p class="para1">Meet our community</p><br><br><br>
+		<p style="font-size:22px"><b>Members</b></p>
+	</div>
+
+	<div class="box2">
+		<b style="font-size:17px;">TRANSFER NEWS</b><br>
+		<img class="ars2" src="C:\Users\user\Pictures\arsenal pro\ar2.jpeg"><br><br><br>
+		<b style="font-size:15px;">New Talents</b>
+		<p style="font-size:12px;">Be informed about the new talents our club is recruting give us your opinion, we are Gunners</p>
+	</div>
+	 
+	<div class="box3">
+		 <b style="font-size:17px;">PROJECTS</b><br>
+	<img class="ars3" src="C:\Users\user\Pictures\arsenal.jpg"><br><br><br>
+		<b style="font-size:15px;">Community</b>
+		<p style="font-size:12px;">Giving back to our community is what makes play because we play for you, we are Gunners</p>
+	</div>
+
+	<div>
+	  <div class="d1"><img class="lisa1" src="C:\Users\user\Pictures\lisa1.jpg"><br><br><br><br>
+	  <p style="font-size:14px;">Lisa</p>
+	  <p style="font-size:12px;"><b>COYG for life</b></p>
+	  <p style="font-size:12px;">A highschool student who is passionate to become an arsenal nurse , we are Gunners</p>
+		<button type="submit" style="background-color:red; border-width:0; border-radius:2px;">HAVE A CHAT</button>
+	  </div>
+	  <div class="d2"><img class="liv2" src="C:\Users\user\Pictures\liv2.jpg"><br><br><br><br>
+		<p style="font-size:14px;">Livin</p>
+	  <p style="font-size:12px;"><b>COYG for life</b></p>
+	  <p style="font-size:12px;">A university student who is passionate to become a software enginner, we are Gunners</p>
+		<button type="submit" style="background-color:red; border-width:0; border-radius:2px;">HAVE A CHAT</button> </div>
+	  <div class="d3"><img class="bel1" src="C:\Users\user\Pictures\bel1.jpg"><br><br><br><br>
+		<p style="font-size:14px;">Belyse</p>
+	  <p style="font-size:12px;"><b>COYG for life</b></p>
+	  <p style="font-size:12px;">A young woman university graduate  who is passionate to become an  IT consultant , we are Gunners</p>
+		<button type="submit" style="background-color:red; border-width:0; border-radius:2px;">HAVE A CHAT</button>
+	  </div>
+	</div>
+	<div>
+	<div class="d4">
+	<div class="text12">
+	<p Style="font-size:12px;">"VISIT RWANDA"</p>
+	<b style="font-size:15px; font-family:ariel;">A HOME OF GUNNERS</b>
+	</div>
+		<img class="rad1" src="C:\Users\user\Pictures\raddison.jpg">
+	</div>
+	</div>
+	<div class="d5">
+	<div class="text13">
+	<p Style="font-size:23px;"><b>Gunners home</b></p>
+	<p Style="font-size:20px;">The Arsenal Football Club,  
+	commonly known as Arsenal, 
+	is an English professional football club based in Islington,
+	North London. Arsenal compete in the Premier League, 
+	the top flight of English football. 
+	In domestic football, Arsenal have won 13 league titles (
+	including one unbeaten title), a record 14 FA Cups, two League Cups,
+	17 FA Community Shields and a Football League Centenary Trophy.
+	In European football, they have one European Cup Winners' Cup 
+	and one Inter-Cities Fairs Cup. In terms of trophies won, 
+	it is the third-most successful club in English football.[2]</p>
+	</div>
+	
+	</div>
+	<div class="d6">
+	<div class="text31"> ARSENAL</div>
+		<div class="text41"> ARE HOME EMIRATES</div>
+		<img class="text21" src="C:\Users\user\Pictures\arlogo.png">
+		<b class="text22">📞 (+250) 791578879</b>
+		<b class="text23">✉ mugishalivin@gmail.com</b>
+		<b class="text24">📍 KG 22 Avenue,<br><br> Kigali,RWANDA.</b>
+	     <div class="textc1"> COMPANY</div>
+		 <div class="textc2">Help center</div>
+		 <div class="textc3">Language</div>
+		 <div class="textc4">Privacy policy</div>
+	     <div class="textb1">Useful links</div> 
+		 <div class="textb2"><a class="link" href="#Help_center">Help center</a></div>
+
+		 <div class="textb3"><a class="link" href="#Joinfanclub">Join fanclub</a></div>
+		 <div class="textb4"><a class="link" href="#Community_service">Community service</a></div>
+	</div>
+	
+	</body>
+	</html>
